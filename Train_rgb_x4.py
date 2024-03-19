@@ -185,5 +185,8 @@ if __name__ == "__main__":
     if not os.path.exists(os.path.join('./save_model',cfg.experiment_index)):
         os.makedirs(os.path.join('./save_model',cfg.experiment_index))
 
+    if not os.path.exists(os.path.join('./log')):
+        os.makedirs(os.path.join('./log'))
+
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     main(cfg,DEVICE)
