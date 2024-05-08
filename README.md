@@ -14,7 +14,7 @@ Download following datasets:
 
 Place the datasets in the ./DataSet folder, and the detailed path for placing the data can be found in Our_dataloader_xxx.py
 
-# Trainning
+# Training
 + for RAW dataset
 
 ```
